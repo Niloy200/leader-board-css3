@@ -1,3 +1,11 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common styles */
+body {
+    font-family: 'Poppins', sans-serif
+}
+
 /* top-player */
 .players {
     display: grid;
@@ -7,7 +15,8 @@
 
 .player {
     display: flex;
-    justify-content: center;
+    align-items: center;
+
 }
 
 .players img {
